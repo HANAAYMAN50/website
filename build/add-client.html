@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Client</title>
+</head>
+<body>
+    <h1>Add New Client</h1>
+    <form action="/submit-client" method="POST">
+        <label for="clientName">Client Name:</label><br>
+        <input type="text" id="clientName" name="clientName" required><br>
+        <label for="clientEmail">Client Email:</label><br>
+        <input type="email" id="clientEmail" name="clientEmail" required><br>
+        <label for="clientPhone">Client Phone:</label><br>
+        <input type="tel" id="clientPhone" name="clientPhone"><br><br>
+        <input type="submit" value="Add Client">
+    </form>
+</body>
+</html>
